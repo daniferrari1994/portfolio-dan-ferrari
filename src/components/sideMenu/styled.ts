@@ -3,12 +3,15 @@ import styled from "styled-components";
 export const SideMenuContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 80px;
   height: 100vh;
   background-color: #0F0F0F;
   flex-direction: column;
 `;
+
+export const Logo = styled.div`
+  color: #21E6C1;
+`
 
 export const SideMenuLanguage = styled.div`
   display: flex;
@@ -16,9 +19,13 @@ export const SideMenuLanguage = styled.div`
   align-items: center;
 `
 
-export const MenuLanguage = styled.div`
+export const MenuLanguage = styled.button`
   margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
   color: #21E6C1;
+  background-color: #0F0F0F;
 `
 
 export const SideMenuOption = styled.div`
